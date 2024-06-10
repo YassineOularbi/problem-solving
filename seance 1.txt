@@ -21,3 +21,6 @@ Tache 7 :
 
 Tache 8 :
 	SELECT * from movements order by time;
+
+Tache 9 :
+	select id_invite, count(id_mouvement) as nombre_mouvement from movements group by id_invite;
