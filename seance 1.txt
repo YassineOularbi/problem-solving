@@ -18,3 +18,6 @@ Tache 6 :
 
 Tache 7 :
 	SELECT * from Objets order by id_room;
+
+Tache 8 :
+	SELECT * from movements order by time;
