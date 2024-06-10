@@ -4,3 +4,5 @@ Tache 1 :
 Tache 2 :
     select nom, statut from invités;
 
+Tache 3 :
+    select count(*) as nombre_total from invités;
