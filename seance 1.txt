@@ -15,3 +15,6 @@ Tache 6 :
 
 Tache 6 :
 	SELECT * from movements order by time desc limit 1;
+
+Tache 7 :
+	SELECT * from Objets order by id_room;
