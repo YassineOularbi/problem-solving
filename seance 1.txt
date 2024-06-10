@@ -6,3 +6,6 @@ Tache 2 :
 
 Tache 3 :
     select count(*) as nombre_total from invités;
+
+Tache 4 :
+    select count(*) as nombre_total from invités where statut = "suspect";
