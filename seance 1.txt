@@ -10,7 +10,7 @@ Tache 3 :
 Tache 4 :
     select count(*) as nombre_total from invités where statut = "suspect";
 
-Tache 6 :
+Tache 5 :
 	SELECT * from movements order by time asc limit 1;
 
 Tache 6 :
@@ -24,3 +24,6 @@ Tache 8 :
 
 Tache 9 :
 	select id_invite, count(id_mouvement) as nombre_mouvement from movements group by id_invite;
+
+Tache 10 :
+	select id_invite from movements inner join rooms on movements.room_id = rooms.id_room where rooms.nom = "Salle de Bal";
