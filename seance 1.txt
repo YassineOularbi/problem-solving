@@ -1,3 +1,6 @@
 Tache 1 :
     select * from invités;
 
+Tache 2 :
+    select nom, statut from invités;
+
